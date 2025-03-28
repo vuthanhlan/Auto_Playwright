@@ -1,5 +1,9 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
+// test.use({
+//   viewport: { width: 1600, height: 1200 },
+// });
+
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
